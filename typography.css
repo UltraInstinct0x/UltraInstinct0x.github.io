@@ -1,0 +1,136 @@
+/* Global */
+::-moz-selection {
+  background: #fff;
+}
+
+::selection {
+  background: #fff;
+}
+
+.ui ::-moz-selection,
+.about ::-moz-selection {
+  background: #fff;
+}
+
+.ui ::selection,
+.about ::selection {
+  background: #fff;
+}
+
+body.home-page ::-moz-selection {
+  background: #fff;
+}
+
+body.home-page ::selection {
+  background: #fff;
+}
+
+body.night-mode ::-moz-selection {
+  background: #333;
+}
+
+body.night-mode ::selection {
+  background: #333;
+}
+
+body.light-mode ::-moz-selection {
+  background: #ccc;
+}
+
+body.light-mode ::selection {
+  background: #ccc;
+}
+
+body.ultra-mode ::-moz-selection {
+  background: #000;
+}
+
+body.ultra-mode ::selection {
+  background: #000;
+}
+
+body,
+input,
+button {
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "liga", "kern";
+          font-feature-settings: "liga", "kern";
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Reservoir Grunge';
+  src: url("../fonts/DrukWide-Medium-Web.eot");
+  src: url("../fonts/DrukWide-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/DrukWide-Medium-Web.woff2") format("woff2"), url("../fonts/DrukWide-Medium-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Reservoir Grunge';
+  src: url("../fonts/DrukWide-Super-Web.eot");
+  src: url("../fonts/DrukWide-Super-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/DrukWide-Super-Web.woff2") format("woff2"), url("../fonts/DrukWide-Super-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+strong {
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-weight: 300;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-weight: 300;
+}
+
+h1:first-of-type, h2:first-of-type, h3:first-of-type, h4:first-of-type, h5:first-of-type, h6:first-of-type {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+/* Paragraph */
+p:first-of-type {
+  margin-top: 0;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Other */
+.strike-through {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=typography.css.map */
